@@ -1,0 +1,9 @@
+﻿{
+  "playwright": {
+    "browser": "edge",
+    "defaultTimeout": 60,
+    "headless": true,
+    "slowmo": 100,
+    "traceDir": "traces"
+  }
+}
