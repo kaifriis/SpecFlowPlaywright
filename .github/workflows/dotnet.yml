@@ -22,4 +22,4 @@ jobs:
     - name: Running tests
       env:
         BROWSER: CHROMIUM
-      run: xvfb-run dotnet test ./src/PlaywrightSpecFlow.csproj -c Debug -f net7.0 --logger:"console;verbosity=detailed" -- Playwright.Retries=1
+      run: xvfb-run dotnet test ./PlaywrightSpecFlow/PlaywrightSpecFlow.csproj -c Debug -f net6.0 --logger:"console;verbosity=detailed" -- Playwright.Retries=1
