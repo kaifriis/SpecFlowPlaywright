@@ -28,4 +28,10 @@
         <PackageReference Include="FluentAssertions" Version="6.12.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Update="package.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
 </Project>
