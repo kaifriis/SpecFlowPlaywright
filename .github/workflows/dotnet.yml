@@ -18,7 +18,7 @@ jobs:
     - name: Build
       run: dotnet build --no-restore ./PlaywrightSpecFlow
     - name: Installing Browsers and dependencies
-      run: pwsh PlaywrightSpecFlow/bin/Debug/net7.0/playwright.ps1 install --with-deps
+      run: pwsh PlaywrightSpecFlow/bin/Debug/net6.0/playwright.ps1 install --with-deps
     - name: Running tests
       env:
         BROWSER: CHROMIUM
